@@ -1,0 +1,43 @@
+<!-- - Une bannière avec une image de fond, contenant un titre et une description
+- Un conteneur centré (avec une marge à gauche/droite automatique) pour le contenu de l'article
+- À l'intérieur de ce conteneur : des titres, des paragraphes et des liens
+- Et aussi : un conteneur réactif (responsive) + un effet de survol sympa sur les liens -->
+
+<!-- Tu vois comment le CSS change au survol (`hover`) (`background-image: linear-gradient ...`) ?
+- Ajoute un dégradé linéaire (`linear-gradient`) sur `a`, et un autre plus sombre `a:hover` pour reproduire ces liens. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Premier article Medium</title>
+</head>
+<body>
+  <div>
+    <div class="banner">
+      <div class="container">
+        <h1>Premier article Medium</h1>
+        <h2>C'est un test pour un exercice</h2>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Premièrement</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptas, quod ex atque, blanditiis veniam harum, quia omnis eius iure unde ullam rerum esse. Nulla assumenda atque temporibus, ab nam.
+      </p>
+      <h2>Ensuite</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptas, quod ex atque, blanditiis veniam harum, quia omnis eius iure unde ullam rerum esse. Nulla assumenda atque temporibus, ab nam.
+      </p>
+      <a class="link-medium" href="#">This is how you really do it</a>
+      <h2>Pour finir</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptas, quod ex atque, blanditiis veniam harum, quia omnis eius iure unde ullam rerum esse. Nulla assumenda atque temporibus, ab nam.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
